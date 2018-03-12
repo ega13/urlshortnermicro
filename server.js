@@ -3,7 +3,7 @@ var cors = require('cors');
 var bodyParser = require('body-parser');
 var app = express();
 var mongoose = require('mongoose');
-var db = require('./str.js');
+var db = require('./app.js');
 app.use(bodyParser.json());
 app.use(cors());
 app.use(express.static('public'));

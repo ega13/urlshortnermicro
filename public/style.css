@@ -11,6 +11,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 25px;
+  background-color:grey;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 }
 
 p {
-  max-width: 450px;
+  max-width: 550px;
 }
 
 form {
